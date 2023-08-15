@@ -41,11 +41,21 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    'accounts.apps.AccountsConfig',
     'django_extensions',
-    'pages.apps.PagesConfig',
+    #3rd party
+    'crispy_forms',
+    "crispy_bootstrap5",
+    #local 
+    "pages.apps.PagesConfig",
+    'accounts.apps.AccountsConfig',
+
 
 ]
+
+#bootstrapt setting
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
+CRISPY_TEMPLATE_PACK = "bootstrap5"
+
 
 AUTH_USER_MODEL = "accounts.CustomUser"
 
