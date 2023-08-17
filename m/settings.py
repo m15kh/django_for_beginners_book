@@ -35,6 +35,7 @@ LOGOUT_REDIRECT_URL = "home" # new
 # Application definition
 
 INSTALLED_APPS = [
+    #django apps
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -48,7 +49,7 @@ INSTALLED_APPS = [
     #local 
     "pages.apps.PagesConfig",
     'accounts.apps.AccountsConfig',
-
+    'articles.apps.ArticlesConfig',
 
 ]
 
@@ -60,6 +61,7 @@ CRISPY_TEMPLATE_PACK = "bootstrap5"
 AUTH_USER_MODEL = "accounts.CustomUser"
 
 MIDDLEWARE = [
+
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
@@ -125,7 +127,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = "en-us"
 
-TIME_ZONE = "UTC"
+TIME_ZONE = "Asia/Tehran"
 
 USE_I18N = True
 
