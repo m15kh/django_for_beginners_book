@@ -1,6 +1,6 @@
 <div align='center'>
 
-<img src=https://m.media-amazon.com/images/I/515OAKQK5EL._AC_UF1000,1000_QL80_.jpg alt="logo" width=400 height=400 />
+<img src=https://m.media-amazon.com/images/I/515OAKQK5EL._AC_UF1000,1000_QL80_.jpg alt="logo" width=400 height=500 />
 
 <h1>code of django for beginners book</h1>
 <p>i create this repo to write code of django for beginners book by William S. Vincent </p>
